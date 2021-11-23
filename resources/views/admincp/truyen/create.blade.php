@@ -44,6 +44,11 @@
                         <div class="form-group">
                             <label for="exampleInputEmail1"> Danh mục truyện</label>
                             <select name="kichhoat" class="custom-select">
+                                
+
+
+
+                            
                                 <option value="0">Kích hoạt</option>
                                 
                             </select>
