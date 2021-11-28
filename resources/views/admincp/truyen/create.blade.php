@@ -24,7 +24,6 @@
                         </div>
                     @endif
 
-                    <form method="POST" action="{{route('truyen.store')}}" >
                         @csrf 
                         <div class="form-group">
                             <label for="exampleInputEmail1"> Tên truyện</label>
@@ -38,19 +37,10 @@
 
                         <div class="form-group">
                             <label for="exampleInputEmail1"> tóm tắt truyện</label>
-                            <textarea class="form-control"> </textarea>
                         </div>
 
                         <div class="form-group">
                             <label for="exampleInputEmail1"> Danh mục truyện</label>
-                            <select name="kichhoat" class="custom-select">
-                                
-
-
-
-                            
-                                <option value="0">Kích hoạt</option>
-                                
                             </select>
                         </div>
 

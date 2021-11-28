@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 class TruyenController extends Controller
 {
     /**
@@ -13,7 +12,6 @@ class TruyenController extends Controller
      */
     public function index()
     {
-        return view('admincp.truyen.index');
     }
 
     /**
@@ -23,7 +21,6 @@ class TruyenController extends Controller
      */
     public function create()
     {
-        return view('admincp.truyen.create');
     }
 
     /**
@@ -34,7 +31,6 @@ class TruyenController extends Controller
      */
     public function store(Request $request)
     {
-        //
     }
 
     /**
@@ -56,7 +52,6 @@ class TruyenController extends Controller
      */
     public function edit($id)
     {
-        //
     }
 
     /**
@@ -68,7 +63,6 @@ class TruyenController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
     }
 
     /**
@@ -79,6 +73,5 @@ class TruyenController extends Controller
      */
     public function destroy($id)
     {
-        //
     }
 }
