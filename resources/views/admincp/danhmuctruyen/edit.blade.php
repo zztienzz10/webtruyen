@@ -29,12 +29,12 @@
                         @csrf 
                         <div class="form-group">
                             <label for="exampleInputEmail1"> Tên danh mục</label>
-                            <input type="text" class="form-control" value="{{$danhmuc->tendanhmuc}}" name="tendanhmuc" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tên danh mục...">
+                            <input type="text" class="form-control" value="{{$danhmuc->tendanhmuc}}" onkeyup="ChangeToSlug();" name="tendanhmuc" id="slug" aria-describedby="emailHelp" placeholder="Tên danh mục...">
                         </div>
 
                         <div class="form-group">
                             <label for="exampleInputEmail1"> Slug danh mục</label>
-                            <input type="text" class="form-control" value="{{$danhmuc->slug_danhmuc}}" name="slug_danhmuc" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="slug danh mục...">
+                            <input type="text" class="form-control" value="{{$danhmuc->slug_danhmuc}}" name="slug_danhmuc" id="convert_slug" aria-describedby="emailHelp" placeholder="slug danh mục...">
                         </div>
 
                         <div class="form-group">
