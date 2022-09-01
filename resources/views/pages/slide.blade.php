@@ -42,7 +42,11 @@
             </style>
             <div class="owl-carousel owl-theme mb-5">
 
+<<<<<<< HEAD
                 @foreach($truyen as $key => $value)
+=======
+                @foreach($slide as $key => $value)
+>>>>>>> 57d6f25b3aceecf8fa89a2dfef87c351c59e3e5b
 
                     <div class="item">
                         

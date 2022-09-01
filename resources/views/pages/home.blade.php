@@ -15,7 +15,11 @@
                     <img class="card-img-top"  src="{{asset('public/uploads/truyen/'.$value->hinhanh)}}" >
                     <div class="card-body">
                         <h5>{{$value->tentruyen}}</h5>
+<<<<<<< HEAD
                     <p class="card-text">{{$value->tomtat}}</p>
+=======
+                    <!-- <p class="card-text">{{$value->tomtat}}</p> -->
+>>>>>>> 57d6f25b3aceecf8fa89a2dfef87c351c59e3e5b
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
                             <a href="{{url('xem-truyen/'.$value->slug_truyen)}}" class="btn btn-sm btn-outline-secondary">Đọc ngay</a>
